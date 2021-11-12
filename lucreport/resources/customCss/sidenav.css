@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body {
+    font-family: 'Muli', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.title
+{
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 18px;
+    font-size:22px;
+    border-bottom: 1px solid white;
+}
+.title span{
+    
+    font-size:16px;
+   
+}
+.menu
+{
+    text-align: center;
+ 
+}
+.side-nav
+{
+ 
+    background-color:#202A44;
+    color:#fff;
+    padding:0px;
+    height: 100%;
+}
+.side-nav ul 
+{
+   list-style: none;
+   padding-top:40px;
+  
+}
+
+.side-nav ul a{
+   text-decoration: none;
+
+}
+.side-nav ul a li {
+      padding-left:10px;
+    color:#fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-size: 13px;
+   
+
+}
+.side-nav ul a li:hover
+{
+    background-color:#263a6d; ;
+    color:#eee;   
+   
+
+}
+.fa
+{
+  margin-right:5px;
+}
+.advance{
+    padding-left:40px;
+    font-size:10px;
+}
+.profile
+{
+   text-align: center;
+   color:#fff;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+#count
+{
+  color:yellow;
+ 
+
+}
+.profile:hover{
+    background-color:#49DE2F;
+  
+}
+
+#titleMain{
+    text-align:center;
+    background-color:#263a6d;
+    color: #eee;
+    padding-top:8px;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.logcon{
+    display: none;
+}
+
+
+ 
