@@ -19,7 +19,7 @@
            <?php require __DIR__.'/resources/topnav/topnav.php' ?> 
 
            <div class="oval">
-                <span > WHO WE ARE</span>
+                <p class="animate__animated animate__rubberBand animate__infinite animate animate__slower" > WHO WE ARE</p>
            </div>
           <span class="far fa-address-card fa-4x p-4 circle"></span>
           
@@ -35,8 +35,8 @@
                                      <p><a href="#mission">Our Mision</a></p>
                                      <p><a href="#vision">Our Vision</a></p>
                                      <p><a href="#our_office">Our Office</a></p>
-                                     <p><a href="#our-contact">Our Contact</a></p>
-                                     <p><a href="#vision">Our Team</a></p>
+                                     <p><a href="#our_contact">Our Contact</a></p>
+                                     <p><a href="#team">Our Team</a></p>
                                  </div>
                              </div>
                      </div>
@@ -56,10 +56,42 @@
                             PayPaddi is the one-stop-shop e-payment solution for the tripartite (individuals, business firms and Government) of any economy. Our focus is to make revenue generation simpler and collection easier by adopting cutting-edge technology. This unique e-payment solution serves every revenue generating sectors across the tiers of Government.
                             </p>
 
-                            <div class="section4_container" id="our_office"><!-- section4 start  here -->
-                                <p><i class="fas fa-map-marker-alt"></i></p>
+                            <div id="our-office">Core values</div>
+                            <p  class="content">
+                                    <b>Integrity</b><br/>
+                                    <b>Innovation</b><br/>
+                                    <b>Commitment</b><br/>
+                                    <b>Teamwork</b>
+                            </p>
+
+                            <div class="section4_container" id="our_contact"><!-- section4 start  here -->
+                                <p><i class="fas fa-map-marker-alt "></i></p>
                                 <p>2A Anthony Road, Anthony Village Lagos.</p>
                             </div><!-- section4 ends  here -->
+                            
+                            <p id="meet-our-team">MEET OUR TEAM</p>
+                            <div class="section5_container shadow-lg" id="team"><!-- section4 start  here -->
+                                <div class="row">
+                                    <div class="col-sm-4  colcol">
+                                        <p><img src="image/man1.jpg" alt="" class="ourimage shadow-lg"></p>
+                                        <p>Tunde Ogundana</p>
+                                        <p>CEO</p>
+                                        
+                                    </div>
+                                    <div class="col-sm-4 colcol">
+                                        <p><img src="image/man4.jpg " alt="" class="ourimage shadow-lg"></p>
+                                        <p>Rebecca Juliet</p>
+                                        <p>Tech Manager</p>
+                                    </div>
+                                    <div class="col-sm-4 colcol">
+                                        <p><img src="image/man2.jpg" alt="" class="ourimage shadow-lg"></p>
+                                        <p>Theophilus Ajiboye</p>
+                                        <p>Senior Programmer</p>
+                                    </div>
+                                    
+                                </div>
+                            </div><!-- section4 ends  here -->
+
 
                      </div>
                      <div class="col-sm-2">
@@ -68,12 +100,10 @@
                                      <p id="our-contact">Our Contact</p>
                                  </div>
                                  <div class="link_nav">
-                                     <p><a href="#about-us">baba@paypaddi.ng</a></p>
-                                     <p><a href="#mission">ayomikun@paypaddi.ng</a></p>
-                                     <p><a href="#vision">akinadewumi@paypaddi.ng</a></p>
-                                     <p><a href="#vision">lekanogundana@paypaddi.ng</a></p>
-                                     <p><a href="#vision">damilolaabe@paypaddi.ng</a></p>
-                                     <p><a href="#vision">adooffice@paypaddi.ng</a></p>
+                                     <p><a href="#about-us">support@paypaddi.ng</a></p> 
+                                     <p><a href="#about-us">adooffice@paypaddi.ng</a></p> 
+                                     <p><a href="#about-us">+234 806 251 1055</a></p> 
+                                                       
                                  </div>
 
                                  <div>

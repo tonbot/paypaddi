@@ -1,7 +1,3 @@
-
-
-"use strict";
-
 !function() {
   var t = window.driftt = window.drift = window.driftt || [];
   if (!t.init) {
@@ -23,4 +19,24 @@
   }
 }();
 drift.SNIPPET_VERSION = '0.3.1';
-drift.load('brr6dpphhwyt');
+drift.load('ipyrn4e4g69u');
+
+////////////////////////////////////////////////////////////////////////////////
+
+$(document).ready(function(){
+  drift.on('ready',function(api){
+    // hide the widget when it first loads
+  drift.api.widget.show()
+  
+  drift.on('chatOpen', function() {
+    console.log('Chat is open!tp')
+   
+    })
+      
+
+
+  })
+
+});
+
+

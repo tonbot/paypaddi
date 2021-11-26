@@ -9,12 +9,13 @@ body {
     font-family: 'Muli', sans-serif;
   
     overflow-x: hidden;
+    background-color: #e5e5e534;
    
 }
 
 .oval {
     height: 50px;
-    background-color: #555;
+    /* background-color: #555; */
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
      margin-top: 0px;
@@ -22,14 +23,20 @@ body {
      top:-8px;
      height:200px;
     width: 100vw;
-    padding: 70px;
+    padding: 100px;
     color: white;
-    background: rgb(88, 3, 88);
+    /* background: rgb(88, 3, 88); */
+    background-image: url("/paypaddi/image/bg2.jpg");
+    background-size: cover;
+      background-repeat: no-repeat;
+   /* // background-position: center; */
+
     text-align: center;
   }
   .oval span{
       font-weight: bold;
       font-size: 40px;
+      
   }
   .circle {
    
@@ -44,6 +51,11 @@ body {
       text-align: center;
       padding-left: 300px;
       padding-right: 300px;
+      background-image: url("/paypaddi/image/bg51.png");
+      background-position: center;
+      background-size: 100;
+      background-repeat: no-repeat;
+     
   }
   .form_container >div{
        text-align: left; 
@@ -54,6 +66,7 @@ body {
       padding:10px;
       border:1px solid purple;
       border-radius:5px;
+      font-weight: bold;
   }
   input[type=text]:focus{
     outline: none;
@@ -83,3 +96,51 @@ body {
     border-radius:5px;
 
   }
+  #note{
+    padding-top: 20px;
+    font-size: 16px;
+  }
+  #status{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align:center;
+    font-size: 15px;
+    color:#fff;
+    background-color:purple;
+  }
+  
+/* 
+mobile styling start here */
+@media (max-width: 480px) {
+  .oval {
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    padding: 40px;
+    padding-top: 100px;
+  
+  }
+  .oval span{
+    font-weight: bold;
+    font-size: 25px;
+}
+.circle { 
+  position: absolute;
+  display: none;
+}
+.form_container{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: url("/paypaddi/image/bg51.png");
+  background-position: center;
+  background-size: 100;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+ 
+}
+#note{
+  padding-top: 20px;
+  font-size: 13px;
+}
+
+}

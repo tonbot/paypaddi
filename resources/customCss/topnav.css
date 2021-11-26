@@ -10,21 +10,46 @@ body {
 .topnav{
    /* padding: 20px 0px 20px ;*/
    margin-bottom: 0px;
-   max-height: fit-content;
+
    width: 100vw;
+   position: fixed;
+   z-index: 1000;
 }
 .topnav ul {
     list-style: none;
     display: flex;
 }
+.fa-bars{
+    position: absolute;
+    left:310;
+    top:20;
+    color:purple;
+    display:none;
+}
+.fa-bars:hover{
+  color:rgb(253, 5, 253);
+  
+}
+.fa-times{
+    position: absolute;
+    left:312;
+    top:20;
+    color:purple;
+    display:none;
+}
+.fa-times:hover{
+  color:rgb(253, 5, 253);
+
+}
  .li_logo_container{
     position: absolute;
-    top:10;
+    top:20;
     left:50;
 }
 .li_navlink_container{
     position: relative;
     left:600;
+    top:10;
   
 }
 .li_navlink_container ul li {
@@ -33,13 +58,14 @@ body {
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-right: 35px;
+    margin-bottom: 10px;
 
 }
 .li_navlink_container ul li:hover{
     background-color:  rgba(255, 165, 0, 0.6) ;
-   
 }
-.li_navlink_container ul li a {
+.li_navlink_container ul a {
     text-decoration: none;
     color: rgb(88, 3, 88);
     font-size: 15px;
@@ -52,10 +78,49 @@ body {
     border-radius: 10px;
     color:  rgb(88, 3, 88);
     left:1200;
-    top:10;
+    top:20;
     font-size: 15px;
     font-weight: bold;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     
 }
+@media (max-width: 480px) {
+    .topnav{
+        /* padding: 20px 0px 20px ;*/
+        margin-bottom: 0px;
+     
+        width: 100vw;
+        height:70px;
+        position: fixed;
+        z-index: 1000;
+     }
+     .fa-bars{
+        
+         display:block;
+     }
+  
+    .li_navlink_container{
+        position: absolute;
+        left:0;  
+    }
+    .li_logo_container{
+        position: absolute;
+        top:15;
+        left:41;
+    }
+    .li_navlink_container > ul{
+        list-style: none;
+        display: none;
+        background-color: #fff;
+        width:100vw;
+        position: absolute;
+        top:60;
+        line-height: 10px;
+    }
+    .get_started{
+        position: absolute;
+        display: none;   
+    }
+   
+  }

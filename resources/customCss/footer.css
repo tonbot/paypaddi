@@ -41,3 +41,51 @@
 .footer_mother_container a:hover{
     color:rgba(255, 255, 255, 0.774)
 }
+#copyright{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 150px;
+}
+
+
+
+/* 
+mobile styling start here */
+@media (max-width: 480px) {
+   
+    .footer_mother_container{
+        background: rgb(88, 3, 88);
+        width: 100vw;
+        margin-top: 70px;
+        color: #fff;
+        padding:20px;
+        padding-left: 20px;
+    }
+    .col-sm-5{
+        line-height: 20px;
+    }
+    .col-sm-3{
+        line-height: 20px;
+    }
+    .col-sm-4{
+        line-height: 20px;
+    }
+    .col-sm-5>:nth-child(1){
+        font-weight: bold;
+        font-size: 19px;
+   }
+   .col-sm-3>:nth-child(1){
+       font-weight: bold;
+       font-size: 19px;  
+       margin-top: 20px;
+   }
+   .col-sm-4>:nth-child(1){
+       font-weight: bold;
+       font-size: 19px;
+   }
+    
+   #copyright{
+    padding-top: 80px;
+}
+
+  }

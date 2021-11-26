@@ -5,12 +5,10 @@
     $('#login').click(function()
           
       {
-              
-            
+                       
                 let username = $('#username').val();
                 let password = $('#password').val();
                
-
                 if (  username==="" || username === null || password==="" || password === null  )
  
                     {     
@@ -67,6 +65,12 @@
     $("#login").focusout(function(){
         $('#message').hide();
    });
+
+
+
+   particlesJS.load('particles-js', 'assets/particles.json', function() {
+    console.log('callback - particles.js config loaded');
+  });
         
   
 });
